@@ -36,7 +36,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 19,
+    "uniqCompNum": 21,
     "versionPublish": "4.5.2",
     "favicon": "@PROJECT_PATH@/assets/images/screen-shot-2017-10-13-at-11.28.20-pm-128x43.png",
     "noImageResize": "",
@@ -105,47 +105,14 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".counter-container": {
-              "color": "#767676",
-              "ol": {
-                "margin-bottom": "0",
-                "li": {
-                  "margin-bottom": "1rem"
-                },
-                "& when (@stylizedCounters)": {
-                  "counter-reset": "myCounter",
-                  "li": {
-                    "list-style": "none",
-                    "padding-left": ".5rem",
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "0px",
-                      "margin-top": "-10px",
-                      "counter-increment": "myCounter",
-                      "content": "counter(myCounter)",
-                      "display": "inline-block",
-                      "text-align": "center",
-                      "margin": "5px 10px",
-                      "line-height": "40px",
-                      "transition": "all .2s",
-                      "color": "contrast(@counterColor)",
-                      "background": "@counterColor",
-                      "width": "40px",
-                      "height": "40px",
-                      "border-radius": "50%",
-                      "& when (@squareCounters)": {
-                        "border-radius": "0"
-                      }
-                    }
-                  }
-                }
-              }
+            ".mbr-text, blockquote": {
+              "color": "#767676"
             }
           },
-          "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#16667b\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b style=\"font-size: 1.2rem;\">All promo codes for Rocksbox offer the same benefits...they give you one free month. Any other benefits you see listed are the perks you get being a Rocksbox member.</b></li><li><b style=\"font-size: 1.2rem;\">The trial subscription is truly free. There are no hidden charges, no tax, no shipping and handling charges.</b></li><li><b>The free month lasts for a full 30 days. They don't bill at the beginning of the month, they bill each month on the day you joined. If you start your free trial on the 19th, you won't be charged until the 19th of the following month.</b></li><li><b>Once you start your free month, you'll make a 'wish list' of jewelry that you want to try and they will send you 3 pieces at a time to wear for however long you want. When you're done, you put the pieces back in the box and return them. The packaging they send you with your jewelry is reusable, and they include a free return shipping label.</b></li><li><b>You can return your box as many times as you want during the month to get 3 new pieces. They put your new box together as soon as they receive tracking information on the box you are returning, so the turnaround time is fast. They also let you have a 'sneak peek' at the box they are preparing to send and give you the option to swap out one piece for one that you personally choose (I almost always do this).</b></li><li><b>If you fall in love with a piece that you get, you can buy it using the $21 credit.&nbsp;</b></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qDboL9rN6I",
-          "_anchor": "content11-d",
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b>All promo codes for Rocksbox offer the same benefits...they give you one free month. Any other benefits you see listed are the perks you get being a Rocksbox member.</b></p><p><b>The trial subscription is truly free. There are no hidden charges, no tax, no shipping and handling charges.</b></p><p></p><div><b>The free month lasts for a full 30 days. They don't bill at the beginning of the month, they bill each month on the day you joined. If you start your free trial on the 19th, you won't be charged until the 19th of the following month.</b></div><div><b><br></b></div><div><b>Once you start your free month, you'll make a 'wish list' of jewelry that you want to try and they will send you 3 pieces at a time to wear for however long you want. When you're done, you put the pieces back in the box and return them. The packaging they send you with your jewelry is reusable, and they include a free return shipping label.</b></div><div><b><br></b></div><div><b>You can return your box as many times as you want during the month to get 3 new pieces. They put your new box together as soon as they receive tracking information on the box you are returning, so the turnaround time is fast. They also let you have a 'sneak peek' at the box they are preparing to send and give you the option to swap out one piece for one that you personally choose (I almost always do this).</b></div><div><b><br></b></div><div><b>If you fall in love with a piece of jewelry that you get, you can buy it using the $21 credit!</b></div><p></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qDbGV6fZtS",
+          "_anchor": "content1-k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
