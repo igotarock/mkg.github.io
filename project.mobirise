@@ -31,21 +31,28 @@
         "#000000",
         "#5e2835",
         "#66081f",
-        "#16667b"
+        "#16667b",
+        "#333333"
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 16,
+    "uniqCompNum": 19,
     "versionPublish": "4.5.2",
-    "favicon": "",
-    "noImageResize": ""
+    "favicon": "@PROJECT_PATH@/assets/images/screen-shot-2017-10-13-at-11.28.20-pm-128x43.png",
+    "noImageResize": "",
+    "siteUrl": "http://www.ioverocksbox.com",
+    "sitemapSwitcherAuto": "on",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "google-analytics": "",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "rocksbox promo code, rocksbox promo, rocksbox free, rocksbox free month, rocksbox subscription, rocksbox coupon, rocksbox coupon code, rocksbox free trial, rocksbox trial",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
