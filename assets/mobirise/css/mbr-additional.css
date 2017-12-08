@@ -1403,10 +1403,11 @@ body {
   line-height: 40px;
   transition: all .2s;
   color: #ffffff;
-  background: #55b4d4;
+  background: #16667b;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  border-radius: 0;
 }
 .cid-qDbp32kcLP {
   padding-top: 60px;
